@@ -91,7 +91,7 @@ public class MyList<E>{
     }
 
     public void clear(){
-        elements ;
+        elements = (E[]) new Object[DEFAULT_CAPACITY];
         this.size = 0;
     }
 

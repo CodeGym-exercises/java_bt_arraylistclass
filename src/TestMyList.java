@@ -9,10 +9,7 @@ public class TestMyList {
         list.addLast(33);
         list.addLast(43);
         list.addFirst(99);
-
-        System.out.println(list);
-        System.out.println("size: "+list.size());
-        list.clear();
+        System.out.println(list.get(77));
         System.out.println(list);
         System.out.println("size: "+list.size());
     }
